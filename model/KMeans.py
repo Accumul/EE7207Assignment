@@ -7,7 +7,7 @@ import random
 import numpy as np
 
 
-class KMeans():
+class RBF_KMeans():
 
     def __init__(self, center_num, data_train, label_train):
 

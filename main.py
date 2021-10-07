@@ -262,14 +262,7 @@ def overfit():
 if __name__ == "__main__":
 
 
-    # SVM_labelTest = svm_classifier()
-    # RBF_labelTest = rbf_random(8, 8)
-    # KMeans_labelTest = rbf_kmeans(64)
-    # SOM_labelTest = rbf_som(8, 8)
-    # test_label(SVM_labelTest, RBF_labelTest, SOM_labelTest, KMeans_labelTest)
-    #
-
-
-
-    plot_mse()
-    # plot_acc()
+    SVM_labelTest = svm_classifier()
+    RBF_labelTest = rbf_random(8, 8)
+    KMeans_labelTest = rbf_kmeans(64)
+    SOM_labelTest = rbf_som(8, 8)
